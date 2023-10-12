@@ -1,7 +1,7 @@
 import csv
 
 # Replace 'input.csv' with the path to your CSV file
-csv_file = 'input.csv'
+csv_file = 'protein seq.csv'
 # Replace 'output.fasta' with the desired output FASTA file path
 fasta_file = 'output.fasta'
 
