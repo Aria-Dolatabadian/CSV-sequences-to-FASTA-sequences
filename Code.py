@@ -9,6 +9,7 @@ fasta_file = 'output.fasta'
 with open(csv_file, 'r') as csvfile, open(fasta_file, 'w') as fastafile:
     csv_reader = csv.reader(csvfile)
 
+    
     for row in csv_reader:
         if len(row) == 2:
             name, sequence = row
